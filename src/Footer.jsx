@@ -1,3 +1,4 @@
+import { color } from "@mui/system";
 import React from "react";
 
 const Footer = () => {
@@ -15,7 +16,14 @@ const Footer = () => {
             <p style={{
                 fontSize: "18px",
                 fontFamily: "bold"
-            }}>copyright © {year}</p>
+            }}>Created By AbhiJeet | copyright © {year}</p>
+            <p style={{
+                fontSize: "15px",
+                fontFamily: "bold",
+                color: "brown"
+            }}>
+                Made with love for great people.
+            </p>
         </footer>
     </>
 };
